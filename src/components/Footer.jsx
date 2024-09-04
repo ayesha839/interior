@@ -10,9 +10,9 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-white py-10 text-gray-800 px-[2.5%]">
-      <div className="flex justify-between items-start mb-10">
+      <div className="flex flex-col sm:flex-row justify-between items-start mb-10 space-y-10 sm:space-y-0">
         {/* Address and Contact Info */}
-        <div className="flex space-x-10">
+        <div className="flex flex-col sm:flex-row space-y-10 sm:space-y-0 sm:space-x-10">
           <div>
             <h4 className="font-semibold text-lg">Vilnius</h4>
             <div>Kalinauko 24-7</div>
@@ -71,22 +71,6 @@ const Footer = () => {
             size={30}
           />
         </Link>
-      </div>
-
-      {/* Footer Bottom */}
-      <div className="border-t border-gray-200 mt-10 pt-5 text-gray-500 text-sm">
-        <div className="flex justify-between items-center">
-          <div className="flex space-x-12">
-            <span>&copy; Copyright UBBS London</span>
-            <Link href="#" className="hover:underline">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="hover:underline">
-              Terms and Conditions
-            </Link>
-          </div>
-          <span>Website by Rattlesnake Group</span>
-        </div>
       </div>
     </footer>
   );
