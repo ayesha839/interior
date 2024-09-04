@@ -9,22 +9,22 @@ const Carousel = () => {
     {
       description: "Beautifully crafted global homes and retreats.",
       image:
-        "/laptop.jpg",
+        "https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/645271a04e7c9f73237c8e82_r.webp",
     },
     {
       description: "Leading architecture & interior design studio in London.",
       image:
-        "/laptop.jpg",
+        "https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/6451bce651262dea69055c40_Hospitality-2.jpg",
     },
     {
       description: "Commercial focused design led environments.",
       image:
-        "/laptop.jpg",
+        "https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/6451bdb0e505d9880fe4da9c_com-2.jpg",
     },
     {
       description: "The future of how we live, work and play.",
       image:
-        "/laptop.jpg",
+        "https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/644f196c5896beba035731d5_1_0000s_0018_Vector%20Smart%20Object.jpg",
     },
   ];
   const totalSlides = slides.length;

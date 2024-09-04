@@ -11,37 +11,37 @@ const FeaturedProjects = () => {
       name: "Sunset Villa",
       location: "Los Angeles, US",
       imageUrl:
-        "/laptop.jpg",
+        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/64b5f8d3e458036fc16be313_b%20copy.jpg",
     },
     {
       name: "Golden Mile Penthouse",
       location: "London, UK",
       imageUrl:
-        "/laptop.jpg",
+        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b4b5aa8f56c3b73732416_oko-tower-07.webp",
     },
     {
       name: "Premier Golf & Country Club",
       location: "Europe",
       imageUrl:
-        "/laptop.jpg",
+        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/654ab2a8de380a0a464c31ef_1_0000s_0007_Vector%20Smart%20Object.jpg",
     },
     {
       name: "First Class Fitness Center",
       location: "Moscow, Russia",
       imageUrl:
-        "/laptop.jpg",
+        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b4cc9777c736cbe218380_world-class-05.webp",
     },
     {
       name: "Kauko Apartments",
       location: "Moscow",
       imageUrl:
-        "/laptop.jpg",
+        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/64b5ebd5f54b87b6b7294fb9_1_0013__F3A3686.jpg",
     },
     {
       name: "Dufry / Register Office",
       location: "Moscow, Russia",
       imageUrl:
-        "/laptop.jpg",
+        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b34e653620ad664c946fb_madison-park-12.webp",
     },
   ];
 

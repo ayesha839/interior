@@ -280,7 +280,7 @@ const Portfolio = () => {
         <div
           className="background-banner video-banner absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "/laptop.jpg",
+            backgroundImage: "https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/644f196c5896beba035731d5_1_0000s_0018_Vector%20Smart%20Object.jpg",
             backgroundPosition: '50% 25%',
             transform: 'translate3d(0px, 3.64256%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
             transformStyle: 'preserve-3d',

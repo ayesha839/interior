@@ -66,9 +66,9 @@ const About = () => {
         </div>
         <div className="w-full md:w-1/2 mt-8 md:mt-0">
           <Image
-          width={100}
-          height={100}
-            src="/laptop.jpg"
+          width={500}
+          height={400}
+            src="/about.jpg"
             alt=""
             className="w-full min-h-[400px] object-cover transform transition-transform duration-1000 ease-in-out hover:scale-95"
           />
