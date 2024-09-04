@@ -4,7 +4,7 @@ const Schedulesection = () => {
   return (
     <div
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.66)), url("./laptop.jpg")`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.66)), url("https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/63db20a9d833029e83600317_Screenshot%202023-02-02%20at%2001.08.44-p-1080.webp")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh",
