@@ -10,7 +10,7 @@ const Navbar = () => {
       }}
     >
       <div className="hidden lg:flex space-x-8 tracking-widest">
-        <Link href="#" className="relative hover-underline">
+        <Link href="./projects" className="relative hover-underline">
           PROJECTS
         </Link>
         <Link href="#" className="relative hover-underline">
