@@ -69,9 +69,12 @@ const Carousel = () => {
                 <p className="mb-8 transition-transform duration-500 transform translate-y-8 opacity-0 animate-slide-up lg:text-[40px] text-[28px] md:text-[35px] xl:text-[40px]">
                   {slide.description}
                 </p>
+                <Link href="/projects">
                 <button className=" text-white text-center tracking-widest font-extralight uppercase bg-transparent border border-[rgba(181,171,161,0.6)] rounded-full justify-center items-center mx-0 px-10 py-4 font-sans text-[0.625rem] leading-tight inline-block relative hover:bg-[#0d0d0d8c]">
                   view projects
                 </button>
+                </Link>
+               
               </div>
               <div className="lg:flex xl:flex hidden flex-col items-end space-y-4 py-10 px-[8px]">
                <Link href="#" ><FaInstagram className="text-white border rounded-full border-[#ffffff4d] p-[6px] hover:border-white" size={30} /></Link>

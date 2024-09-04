@@ -180,7 +180,7 @@ const FeaturedProjects = () => {
         </div>
       </div>
       <div className="centerContainer">
-        <Link href="/page.js" className="btn-underline white-bg w-inline-block">
+        <Link href="/" className="btn-underline white-bg w-inline-block">
           <div>HOMEPAGE</div>
           <div className="underline-hover-wrapper">
             <div
