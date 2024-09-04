@@ -14,7 +14,6 @@ export default function Home() {
        <Herosection/>
         <About/>
         <FeaturedProjects/>
-        <Portfolio/>
         <Highlight/>
         <Wierdsection/>
         <LatestInsight/>

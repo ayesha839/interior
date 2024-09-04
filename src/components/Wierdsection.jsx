@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function Wierdsection() {
   const [bgImage, setBgImage] = useState(
-    "./laptop.jpg"
+    "https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/644f18f20014986761b02ee9_643b35a6599bb80d3ce4c525_embassy-house-04-p-1080.webp"
   ); // Default background image
   const [hoveredSection, setHoveredSection] = useState(null);
 
@@ -30,7 +30,7 @@ export default function Wierdsection() {
           className="flex-1 flex items-center justify-center border-r border-gray-400 "
           onMouseEnter={() =>
             handleHover(
-              "./laptop.jpg",
+              "https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/63db20a9d833029e83600317_Screenshot%202023-02-02%20at%2001.08.44-p-1080.webp",
               "interior"
             )
           }
@@ -54,7 +54,7 @@ export default function Wierdsection() {
           className="flex-1 flex items-center justify-center border-r border-gray-400"
           onMouseEnter={() =>
             handleHover(
-              "./laptop.jpg",
+              "https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/64416671d9d4884a3942c487_monochrome-image-p-1080.jpg",
               "architectural"
             )
           }
@@ -78,7 +78,7 @@ export default function Wierdsection() {
           className="flex-1 flex items-center justify-center border-r border-gray-400"
           onMouseEnter={() =>
             handleHover(
-              "./laptop.jpg",
+              "https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/644f18f20014986761b02ee9_643b35a6599bb80d3ce4c525_embassy-house-04-p-1080.webp",
               "specification"
             )
           }
@@ -102,7 +102,7 @@ export default function Wierdsection() {
           className="flex-1 flex items-center justify-center "
           onMouseEnter={() =>
             handleHover(
-              "./laptop.jpg",
+              "https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/644f1b035896be20f7574232_643b3b2bfa6830febac4f275_sechenovskogo-10-p-1080.webp",
               "construction"
             )
           }

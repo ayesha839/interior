@@ -36,22 +36,22 @@ const LatestInsight = () => {
 
   const slidesData = [
     {
-      img: "/laptop.jpg",
+      img: "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b4d8ee7ee1017b97ca9a9_sakhalin-02.webp",
       description: "Urban design trends",
       date: "07 Mar 2023",
     },
     {
-      img: "/laptop.jpg",
+      img: "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b4fe552c9ee1624eeacd6_sothebys-06.webp",
       description: "Principles of interior design",
       date: "07 Mar 2023",
     },
     {
-      img: "/laptop.jpg",
+      img: "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/644f1d4d7487d8fac1ff5539_UBBS-Blog.jpg",
       description: "Commercial architecture: best practices",
       date: "07 Mar 2023",
     },
     {
-      img: "/laptop.jpg",
+      img: "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643c8e6b84ea6aa8eb11bef8_the-lyceum-and-hotel-05.jpeg",
       description: "The future of hospitality design",
       date: "07 Mar 2023",
     },

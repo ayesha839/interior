@@ -39,7 +39,7 @@ const Portfolio = () => {
             <div className="clients-logos-wrapper grid gap-x-8 gap-y-10 grid-cols-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 content-center justify-items-center">
               <div className="logo-wrapper flex justify-center items-center">
                 <Image
-                  src="/laptop.jpg"
+                  src="/logo1.png"
                   width={100}
                   height={100}
                   // loading="lazy"
@@ -49,7 +49,7 @@ const Portfolio = () => {
               </div>
               <div className="logo-wrapper flex justify-center items-center">
                 <Image
-                  src="/laptop.jpg"
+                  src="/logo2.png"
                   width={100}
                   height={100}
                   // loading="lazy"
@@ -59,7 +59,7 @@ const Portfolio = () => {
               </div>
               <div className="logo-wrapper flex justify-center items-center">
                 <Image
-                  src="/laptop.jpg"
+                  src="/logo3.jpg"
                   width={100}
                   height={100}
                   // loading="lazy"
@@ -69,7 +69,7 @@ const Portfolio = () => {
               </div>
               <div className="logo-wrapper flex justify-center items-center">
                 <Image
-                  src="/laptop.jpg"
+                  src="/logo4.png"
                   width={100}
                   height={100}
                   // loading="lazy"
@@ -79,7 +79,7 @@ const Portfolio = () => {
               </div>
               <div className="logo-wrapper flex justify-center items-center">
                 <Image
-                  src="/laptop.jpg"
+                  src="/logo5.png"
                   width={100}
                   height={100}
                   // loading="lazy"
@@ -280,7 +280,7 @@ const Portfolio = () => {
         <div
           className="background-banner video-banner absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/644f196c5896beba035731d5_1_0000s_0018_Vector%20Smart%20Object.jpg",
+            backgroundImage:"url('https://cdn.prod.website-files.com/63c9df6b055c09c10ac5d6f0/644f196c5896beba035731d5_1_0000s_0018_Vector%20Smart%20Object.jpg')",
             backgroundPosition: '50% 25%',
             transform: 'translate3d(0px, 3.64256%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
             transformStyle: 'preserve-3d',
