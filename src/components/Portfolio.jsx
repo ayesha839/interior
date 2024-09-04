@@ -30,7 +30,7 @@ const Portfolio = () => {
                   scales and styles, reflecting our commitment to excellence and 
                   innovation in design. With a team of experienced architects, 
                   designers, and engineers, UBBS provides end-to-end solutions that 
-                  change people's lives.
+                  change people lives.
                 </p>
               </div>
             </div>

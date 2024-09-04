@@ -49,12 +49,12 @@ const About = () => {
             About
           </h1>
           <p className="text-black mb-0 text-[13px] font-light">
-            UBBS is vastly experienced at working across sectors – Residential,
-            Hospitality and Commercial, and across disciplines – Architecture
-            and Interior Design. We offer a multifaceted, entirely bespoke
-            design service, focussed around achieving the best possible end
+            UBBS is vastly experienced at working across sectors.Residential
+            Hospitality and Commercial and across disciplines. Architecture
+            and Interior Design. We offer a multifaceted entirely bespoke
+            design service focussed around achieving the best possible end
             result. Energy efficiency and sustainability issues are given
-            serious consideration at the outset of the design process, in
+            serious consideration at the outset of the design process in
             particular on new-build projects.
           </p>
           <div className="mt-8 hover-underline">
