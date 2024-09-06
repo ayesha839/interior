@@ -3,6 +3,8 @@ import FeaturedProjects from "@/components/FeaturedProject";
 import Herosection from "@/components/Herosection";
 import Highlight from "@/components/Highlight";
 import LatestInsight from "@/components/LatestInsight";
+import Navbar from "@/components/Navbar";
+import NavPage from "@/components/Navpage";
 import Portfolio from "@/components/Portfolio";
 import Schedulesection from "@/components/Sceduledsection";
 import Wierdsection from "@/components/Wierdsection";

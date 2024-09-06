@@ -50,7 +50,7 @@ const Navbar = () => {
           isNavOpen ? "translate-y-0" : "translate-y-full"
         } transition-transform duration-500 ease-in-out z-40`}
       >
-        <div className="flex flex-col justify-center h-full p-8 space-y-6 text-3xl md:text-5xl font-light">
+        <div className="flex flex-col justify-center h-full p-8 space-y-6 text-2xl md:text-4xl font-light">
           <Link href="/" onClick={toggleNav}>
             HOME
           </Link>
