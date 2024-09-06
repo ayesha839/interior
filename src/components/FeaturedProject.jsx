@@ -71,31 +71,34 @@ const FeaturedProjects = () => {
   }, []);
 
   return (
-    <div
-      ref={sectionRef}
-      className="pt-[100px] pr-[2.5%] pb-[100px] pl-[2.5%]"
-    >
+    <div ref={sectionRef} className="pt-[100px] pr-[2.5%] pb-[100px] pl-[2.5%]">
       <div className="w-[100%]">
         <div>
           <h1
             className={`text-black mt-0 mb-0 text-[3.425em] font-normal leading-[1.2em] transition-all duration-1000 ${
-              isTitleVisible ? "animate-slide-in-left" : "opacity-0 translate-x-[-50px]"
+              isTitleVisible
+                ? "animate-slide-in-left"
+                : "opacity-0 translate-x-[-50px]"
             }`}
           >
             Featured projects
           </h1>
           <div className="grid gap-4 grid-cols-1 lg:grid-cols-[1fr_auto] items-center mt-10">
             <div className="flex flex-wrap">
-              {["Residential", "Hospitality", "Commercial", "Retail"].map(
-                (category) => (
-                  <Link href="#" key={category}>
-                    <div className="text-black border border-[rgba(49,45,43,0.65)] rounded-full flex justify-center items-center mr-2 mb-2 px-2.5 py-1 text-[1em] font-light leading-[1.2em] no-underline transition-all duration-200 hover:text-white hover:bg-[#B5ABA1] hover:border-none">
-                      {category}
-                    </div>
-                  </Link>
-                )
-              )}
+              {[
+                { category: "Residential", link: "/residential" },
+                { category: "Hospitality", link: "/hospitality" },
+                { category: "Commercial", link: "/commercial" },
+                { category: "Retail", link: "/retail" },
+              ].map(({ category, link }) => (
+                <Link href={link} key={category}>
+                  <div className="text-black border border-[rgba(49,45,43,0.65)] rounded-full flex justify-center items-center mr-2 mb-2 px-2.5 py-1 text-[1em] font-light leading-[1.2em] no-underline transition-all duration-200 hover:text-white hover:bg-[#B5ABA1] hover:border-none">
+                    {category}
+                  </div>
+                </Link>
+              ))}
             </div>
+
             <div className="hidden xl:block col-span-1 justify-self-end">
               Request more Information <br />
               info@ubbs.uk
@@ -138,7 +141,10 @@ const FeaturedProjects = () => {
         </div>
       </div>
       <div className="centerContainer">
-        <Link href="/projects" className="btn-underline white-bg w-inline-block">
+        <Link
+          href="/projects"
+          className="btn-underline white-bg w-inline-block"
+        >
           <div>View portfolio</div>
           <div className="underline-hover-wrapper">
             <div

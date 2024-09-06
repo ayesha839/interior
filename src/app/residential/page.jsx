@@ -2,11 +2,29 @@
 import Link from "next/link";
 import React, { useEffect, useState, useRef } from "react";
 
-const FeaturedProjects = () => {
+const page = () => {
   const [isTitleVisible, setIsTitleVisible] = useState(false);
   const sectionRef = useRef(null);
 
   const projects = [
+    {
+      name: "Elysian Residence",
+      location: "Frankrut, Germany",
+      imageUrl:
+        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b38dea8f56c835671f80e_villa-frankfurt-07.webp",
+    },
+    {
+      name: "Cloud Villa",
+      location: "Europe",
+      imageUrl:
+        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b3bfe61e75106de832e3f_crimea-villa-07.webp",
+    },
+    {
+      name: "Kauko Apartments",
+      location: "Moscow",
+      imageUrl:
+        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/64b5ebd5f54b87b6b7294fb9_1_0013__F3A3686.jpg",
+    },
     {
       name: "Sunset Villa",
       location: "Los Angeles, US",
@@ -18,72 +36,6 @@ const FeaturedProjects = () => {
       location: "London, UK",
       imageUrl:
         "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b4b5aa8f56c3b73732416_oko-tower-07.webp",
-    },
-    {
-      name: "Premier Golf & Country Club",
-      location: "Europe",
-      imageUrl:
-        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/654ab2a8de380a0a464c31ef_1_0000s_0007_Vector%20Smart%20Object.jpg",
-    },
-    {
-      name: "First Class Fitness Center",
-      location: "Moscow, Russia",
-      imageUrl:
-        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b4cc9777c736cbe218380_world-class-05.webp",
-    },
-    {
-      name: "Kauko Apartments",
-      location: "Moscow",
-      imageUrl:
-        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/64b5ebd5f54b87b6b7294fb9_1_0013__F3A3686.jpg",
-    },
-    {
-      name: "Dufry / Register Office",
-      location: "Moscow, Russia",
-      imageUrl:
-        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b34e653620ad664c946fb_madison-park-12.webp",
-    },
-    {
-      name: "Sakhalin Restraunt",
-      location: "Moscow, Russia",
-      imageUrl:
-        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b4d8361e7516f2d8405d3_sakhalin-03.webp",
-    },
-    {
-      name: "Lalique Office",
-      location: "Moscow, Russia",
-      imageUrl:
-        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b4d0a5a64411a6228febf_lalique-office-05.webp",
-    },
-    {
-      name: "Bath-house complex",
-      location: "Moscow region",
-      imageUrl:
-        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/6452cb77bf1ae6f3ec85934c_1_0001_Screenshot%202023-05-03%20at%2016.56.18.jpg",
-    },
-    {
-      name: "Cloud Villa",
-      location: "Europe",
-      imageUrl:
-        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b3bfe61e75106de832e3f_crimea-villa-07.webp",
-    },
-    {
-      name: "Elysian Residence",
-      location: "Frankrut, Germany",
-      imageUrl:
-        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b38dea8f56c835671f80e_villa-frankfurt-07.webp",
-    },
-    {
-      name: "White Rabbit Restraunt",
-      location: "Moscow",
-      imageUrl:
-        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/64b5f410c12b3ec8aef25b04_2882551ab17ef96b858c33f4da218f49-6169f721af0d1fe619cf5dd4c6fed9a5.jpg",
-    },
-    {
-      name: "Embassy House",
-      location: "Lithaunia, Vilnius",
-      imageUrl:
-        "https://cdn.prod.website-files.com/63c9df6b055c091e80c5d708/643b3598fa68308614c4a5bf_embassy-house-05.webp",
     },
   ];
 
@@ -123,7 +75,7 @@ const FeaturedProjects = () => {
                 : "opacity-0 translate-x-[-50px]"
             }`}
           >
-            Featured projects
+            Residential
           </h1>
           <div className="grid gap-4 grid-cols-1 lg:grid-cols-[1fr_auto] items-center mt-10">
             <div className="flex flex-wrap">
@@ -202,4 +154,4 @@ const FeaturedProjects = () => {
   );
 };
 
-export default FeaturedProjects;
+export default page;
