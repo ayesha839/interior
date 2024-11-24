@@ -4,8 +4,7 @@ const page = () => {
   return (
     <div>
       nope
-        
-      })
+     
     </div>
   )
 }
